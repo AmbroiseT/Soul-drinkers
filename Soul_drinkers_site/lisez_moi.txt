@@ -1,0 +1,13 @@
+Bonjour,
+Pour faire fonctionner le site Soul Drinkers, il faut d'abord lancer le script initialisation.php qui se trouve dans le dossier bidouillage. Cela créera des comptes et des articles.
+Il y a 2 comptes admininstrateurs ambroise et quentin.
+Il y a  d'autres comptes lambdas dont meri, Randolph Carter, ...
+
+Tout les comptes ont pour mot de passe 1234 pour faciliter l'accès.
+
+Pour ce qui est des réglages pour mongo, seuls deux fichiers contiennent des appels à une base de donnée: fonctions_mongo.php et fonctions_ini.php. Il vous suffira d'en modifier les 2 premières lignes.
+
+La page entree.php serait, dans le cas d'un vrai site appelée 'index.php' afin que le serveur ouvre automatiquement cette page à l'entree sur le site. Cependant pour faciliter le débogage et l'examen de l'architecture, on a choisi de le laisser en l'état.
+
+Merci de l'attention que vous porterez à notre site
+Ambroise Thomine et Quentin Perrachon

@@ -1,0 +1,174 @@
+@font-face{
+	font-family: 'new-rocker';
+	src: url('fonts/new-rocker/NewRocker-Regular.otf');
+}
+
+@font-face{
+	font-family: 'rapscallion';
+	src: url('fonts/Rapscallion/RAPSCALL.ttf');
+}
+
+body{
+    background-color: #5A0002;
+    font-family: 'new-rocker';
+}
+.page{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #BF5930;
+    width: 90%;
+    height: 90%;
+}
+.champ{
+    margin-bottom: 10px;
+}
+
+#col1{
+    border-radius: 5px;
+	float: left;
+	width: 35%;
+	border-style: solid;
+	border-width: 3px;
+	border-color: grey;
+}
+#connection label{
+    width: 80px;
+}
+#connection .champ input{
+    float: right;
+}
+#connection{
+    border-radius: 5px;
+    background-color: grey;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+ header img{
+     max-width: 40%;
+     float: left;
+     max-height: 95%;
+}
+header{
+	height: 375px;
+	color: black;
+}
+header h1{
+	font-size: 100px;
+	font-weight: normal;
+	font-family: 'rapscallion';
+}
+header h3{
+	font-weight: normal;
+	font-style: italic;
+}
+
+a{
+	text-decoration: none;
+}
+
+#col2{
+	margin-left: 37%;
+	min-height: 800px;
+}
+article{
+    min-height: 300px;
+    border-radius: 10px;
+    margin: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+}
+article h3{
+    border-radius: 10px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+    margin: 10px;
+    padding: 5px;
+    width: 50%;
+}
+article p{
+	font-size: 15px;
+	padding: 10px;
+	text-align: justify;
+}
+
+article img{
+    float: left;
+    max-width: 170px;
+    max-height: 170px;
+    margin: 5px;
+}
+
+article iframe{
+    margin: 10px;
+}
+nav ul{
+	margin-left: -30px;
+	margin-right: 10px;
+}
+
+
+
+nav li{
+    border-radius: 5px;
+	height: 34px;
+	background-image: url('images/epees/sprites__sword_by_raylazor-d781513.png');
+	list-style-type: none;
+	background-repeat: no-repeat;
+	background-position: 0 0.2em;
+	padding-left: 50px;
+	padding-top: 20px;
+	border-style: solid;
+	margin-top: 5px;
+}
+nav li:hover{
+	background-color: grey;
+}
+
+#inscription label{
+	display:block;
+	width:150px;
+	float:left;
+}
+
+#inscription{
+    border-style: solid;
+    border-radius: 10px;
+    width: 60%;
+    padding: 10px;
+}
+
+#modifier_detail label{
+	display:block;
+	width:150px;
+	float:left;
+}
+#modifier_pass label{
+	display:block;
+	width:250px;
+	float:left;
+}
+
+#redaction{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 100px;
+}
+
+input{
+    border-radius: 5px;
+}
+
+form{
+    margin-bottom: 10px;
+}
+
+.liens{
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+}
