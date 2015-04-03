@@ -1,1 +1,11 @@
-Soul drinkers est un projet de site web fait dans le cadre de l'UE IO2 en L1
+Soul drinkers est un projet de site web fait dans le cadre de l'UE IO2 en L1.
+
+Les technologies utilisées sont html et css, bien entendu, ainsi que php et mongoDB.
+
+Le sujet était de faire un site participatif avec des comptes utilisateurs, possibilité de commenter et d'écrire des 
+articles, gestion d'archives.. Le tout fait en php brut sans framework.
+Le theme que nous avons choisi pour le site est "Les épées maudites dans la fiction".
+
+Pour plus de détails sur son fonctionnement, voir le fichier lisez_moi.txt dans le dossier principal.
+
+Notez que les images utilisées ne m'appartiennent pas, leurs auteurs respectifs sont Sarafiel et Raylazor (deviant art).
